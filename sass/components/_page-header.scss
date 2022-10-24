@@ -1,0 +1,261 @@
+
+// .page-header{
+//     position: relative;
+    
+   
+//     border-bottom: 1px solid #eeee;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     width: 100%;
+//     @include tablet{
+        
+//     }
+//     @include destop{
+//         height: 80px;
+      
+//     }
+//      }
+     
+//     .site-nav{
+// @include tablet{
+//             display: flex;
+//             align-items: center;
+//            justify-content: space-between;
+//            margin-right: 88px;
+//            height: 80px;
+//         }
+     
+//     @include destop{
+//         display: flex;
+//     justify-content: center;
+//         // display: flex;
+//         // flex-wrap: wrap;
+//         // // gap: 92px;
+//     }
+
+//     &__item{
+//        margin-bottom: 30px;
+//     }
+    
+    
+//     &__list,
+//     &__info{
+//         // display: block;
+//         @include tablet{
+//         display: flex;
+//         align-items: center;}
+      
+//     }
+//     &__list{
+//  margin-bottom: 306px;
+//         @include tablet{ 
+//             display: flex;
+//             flex-wrap: wrap;
+            
+//              grid-column-gap: 50px; 
+//         margin-bottom: 0;}
+      
+//     }
+    
+//     &__info{
+//         // display: none;
+    
+//         flex-direction: column-reverse;
+//         gap: 32px;
+//         margin-bottom: 64px;
+//         @include tablet{
+//             display: flex;
+//             flex-direction: column;
+//              gap: 10px;
+//              margin-bottom: 0;
+//              margin-left: auto;
+//         }
+       
+//         @include destop{
+//             margin-left: auto;
+//             flex-direction: row;
+//             gap: 30px
+//         }
+        
+      
+//     }
+//     /* header */
+//     &__logo{
+//         @include font (24px, 700, 28);
+//         font-family: 'Raleway';
+//         letter-spacing: 0.03em;
+//             color:var(--accent-color);
+//             text-decoration: none;
+            
+            
+//         @include destop{
+//             @include font (26px, 700, 1.14);
+//         }
+//        }
+    
+//     &__stydio{
+       
+//         color:var(--title-text-color);
+        
+//             margin-right: 93px;
+        
+   
+   
+//     }
+    
+//     &__text{
+//         font-family: 'Roboto';
+//         letter-spacing: 0.02em;
+        
+//         position: relative;
+//         transition-property: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//         color:var(--title-text-color);
+//         @include font(40px, 500, 47px);
+//        @include tablet{
+//         @include font(14px, 500, 1.14);
+//         }}
+    
+//     &__text--active{
+//     color:var(--accent-color);
+//     transition-property: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+//     }
+//     &__text--active:after{
+//         @include tablet{
+// position: absolute;
+//         @include box(100%, 4px);
+//     margin-top: 28px;
+//     content:"" ;
+//     display: block;
+//     background-color:var(--accent-color);
+//     border-radius: 2px;}}
+//     &__text:hover,
+//     &__text:focus{
+//         color:var(--accent-color);
+//     }
+    
+//  &__email-adres{
+//         font-family: 'Roboto';
+
+// @include font(24px, 500, 28px);
+// letter-spacing: 0.02em;
+// color: #757575;
+      
+//         @include tablet{
+//        @include font(14px, 500, 1.14);
+    
+//     color: var(--primary-text-color);
+//     transition-property: color;
+//     transition-duration: 250ms;
+//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+//     }
+    
+//     &__email-adres:hover,
+//     &__email-adres:focus{
+//         color: var(--accent-color);
+//     }
+    
+//     &__tel,
+//     &__email-adres
+//     {
+//         display: flex;
+//         align-items: center;
+//     }
+//     &__tel{
+//         font-family: 'Roboto';
+// @include font(34px, 500, 40px);
+//         letter-spacing: 0.02em;
+//         color: #2196F3;
+//         @include tablet{
+//             @include font(14px, 500, 1.14);
+    
+//     color: var(--primary-text-color);
+//     transition-property: color;
+//     transition-duration: 250ms;
+//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//       justify-content: baseline;
+//        align-items: center;}
+
+    
+//     }}
+//     .mobile-button{
+//         display: inline-flex;
+//         padding: 0;
+//         margin: 0;
+//         border: none;
+//         background-color: transparent;
+//         @media screen and (min-width:768px){
+//          display: none;
+//         }
+           
+//     }
+//     .mobile-button .icon-close{
+//        display: none;
+//     }
+//     .mobile-button .is-open .icon-close{
+//         display: block;
+//     }
+//     .mobile-button .is-open .icon-menu{
+//        display: none;
+//     }
+//     .mobile-menu{
+//         position: absolute;
+//         overflow-y: scroll;
+//         z-index: 99;
+//         top: 0;
+//         left: 0;
+//         background-color:antiquewhite;
+//         width: 100%;
+//         height: 100%;
+//         transform: translateY(100%);
+//         padding-left: 40px;
+//         padding-top: 48px;
+//         padding-bottom: 40px;
+//         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//         opacity: 0;
+        
+       
+//         &.is-open{
+//             opacity: 100%
+//             // display: block;
+//         }} 
+    
+ 
+        
+//     .navigation,
+//     .contact{
+//         height: 50px;
+//         width: 140px;
+//     }
+//     .navigation, 
+//     .contact{
+
+//         outline: 1px solid burlywood;}
+//         .heder__logo{
+//             display: flex;
+//             flex-wrap: wrap;
+//             font-family: 'Roboto';
+// @include font(18px, 500, 22px);
+// letter-spacing: 0.02em;
+// color:var(--accent-color);
+// gap: 10px;
+// @include tablet{
+//     display: none;
+// }
+// &__line{
+//     border: 1px solid rgba(33, 33, 33, 0.2);
+// transform: rotate(90deg);
+// @include tablet{
+//     display: none;
+// }
+// }
+
+//         }
+//  .mobile-menu {
+//         display: flex;
+//         flex-wrap: wrap;
+//        }
+
+    
+

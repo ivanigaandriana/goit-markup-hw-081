@@ -1,0 +1,261 @@
+
+.footer{
+ 
+ padding: 60px 0 60px;
+
+  color: var(--contacts-text-color);
+  background-color: var(--background-color);
+  &__logor{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+  @include destop{
+    text-align: left;
+    margin-right: 50px;
+  }
+  }
+&__container {
+    width: 480px;
+    margin: 0 auto;
+    padding: 0 15px;
+  @include tablet{ 
+    width: 768px;
+    align-items:baseline;
+    display: flex;
+    flex-wrap: wrap;}
+   
+   
+    @include  destop{
+        width: 1200px;
+    justify-content: flex-start;
+}
+
+    }
+     
+  
+
+
+&__logo{
+
+align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Raleway";
+  @include font(24px, 700, 1.6);
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+@include destop{
+@include font(26px, 700, 1.2);
+
+}}}
+.footer__web{
+  
+ color: var(--accent-color);
+font-family: "Raleway";
+letter-spacing: 0.03em;
+}
+.footer-nav{
+margin-top: 20px;
+text-align: center;
+margin-bottom: 60px;
+@include destop{
+    text-align: left;
+  }
+&__address{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+font-family: 'Roboto';
+font-style: normal;
+line-height: 2;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+
+&__list{
+ margin: 0;
+
+ margin-top: 10px;
+}
+&__mailto{
+   
+  font-family: 'Roboto';
+font-style: normal;
+@include font(14px, 400, 1.7);
+ margin-top: 10px;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+
+&:hover,
+&:focus {
+  color: var(--accent-color)}
+}}
+.footer-nav__tel{
+    text-align: center;
+  font-family: 'Roboto';
+font-style: normal;
+@include font(14px, 500, 1.7);
+letter-spacing: 0.03em;
+color:var(--primary-text-color);
+@include destop{
+    text-align: left;
+}
+&:hover,
+&:focus {
+  color: var(--accent-color)}
+}
+
+.footer-socials{
+
+justify-content: end;
+margin-top: 12px;
+@include tablet{
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+&__title {
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.17;
+  text-align: center;
+  @include destop{
+    text-align: left;
+  }
+}
+&__list{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+&__adress {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  border-color: var(--accent-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+    &:focus
+    { background-color: var(--accent-color)};
+}
+&__icon {
+  fill: var(--secondary-text-color);
+}
+}
+.footer-subscribe {
+  margin-top: 60px;
+  @include tablet{
+     margin-left: auto;
+     margin-right:  auto;
+  }
+
+@include destop{margin-left: 93px;
+margin-right: 0px;}
+  
+
+  &__title {
+  margin-bottom: 20px;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+   text-align: center;
+ 
+  @include destop{
+     text-align: left;
+  }
+}
+&__icon{
+  display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+ 
+ justify-content: center;   
+}
+@include destop{
+      flex-direction: row;
+    gap: 12px;
+}
+&__form {
+      display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    @include destop{
+        flex-direction: row;
+    gap: 12px;
+    }
+}
+&__email{
+
+width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  padding: 15px 16px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--secondary-text-color);
+  outline: none;
+  
+}
+&__email:focus{
+   border: 1px solid var(--accent-color);
+}
+&__btn {
+  display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  
+  height: 50px;
+  
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+  @include font(16px, 700, 1.8);
+  
+  border: none;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+  transition: background-color 250ms linear;
+  border-radius: 4px;
+  align-items: center;
+ 
+  padding-left: 29px;
+  padding-right: 29px;
+  cursor: pointer;
+}
+&__logo {
+  width: 24px;
+  height: 24px;
+  
+
+}}
+

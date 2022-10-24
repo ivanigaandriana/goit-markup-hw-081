@@ -1,0 +1,65 @@
+.detals{
+    flex-wrap: wrap;
+     margin-left: auto;
+     margin-right: auto;
+
+ 
+ &__list{
+    gap: 30px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ } 
+
+ 
+ &__title{
+text-align: center;
+ font-family: 'Roboto',sans-serif;
+ @include font(14px, 700, 1.4);
+ letter-spacing: 0.03em;
+ color:var(--title-text-color);
+ margin-bottom: 10px;
+ @include tablet{
+    text-align: left;
+ }
+ }
+ &__text{
+   max-width: 450px;
+
+   font-family: 'Roboto';
+   @include font(14px, 400, 24px);
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+    @include tablet{
+        max-width: 350px;}
+    @include destop{
+     max-width: 270px;
+    }
+ }}
+ .detals__item::before{
+    height: 120px;
+    display: block;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+  background-color: var(--background-color-2);
+} 
+.detals__item:nth-child(1)::before{
+    background-image: url("../../img3/Group.png");}
+    .detals__item:nth-child(2)::before{
+        background-image: url('../../img3/clock\ 1.png');
+    }
+    .detals__item:nth-child(3)::before{
+        background-image: url('../../img3/diagram\ 1.png');
+    }
+    .detals__item:nth-child(4)::before{
+        background-image: url('../../img3/astronaut\ 1.png');
+    }
+    .detals__list{
+        padding-bottom: 60px;
+        @include destop{
+            padding-bottom: 94px;
+        }
+    }
+   

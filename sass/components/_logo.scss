@@ -1,0 +1,53 @@
+.site-nav{
+&__icon-mail{
+    display: none;
+    @include tablet{
+        display: contents;
+        @include box(16px, 12px);
+        display: flex;
+        margin-right: 10px;
+        fill: currentColor;
+    }
+    
+   }
+&__icon-smartphone{
+    display: none;
+    @include tablet{
+     display: contents;
+    @include box(10px, 16px);
+    display: flex;
+    margin-right: 10px;
+   fill: currentColor;
+}}
+} 
+
+
+
+.logo-link  {
+    text-decoration: none;
+    color: $title-text-color;
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    display: flex;
+  }
+  
+  .logo {
+    color: $accent-color;
+  }
+.logo-footer-studio {
+    color: $secondary-text-color;
+  }
+  .logo-footer {
+    color: $accent-color;
+  }
+
+
+
+
+
+
+ 
+ 
+ 

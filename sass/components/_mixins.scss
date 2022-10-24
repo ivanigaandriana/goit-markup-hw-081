@@ -1,0 +1,48 @@
+@mixin font($fs, $fw, $lh) {
+    font-size:$fs;
+    font-weight:$fw ;
+    line-height:$lh ;
+}
+@mixin box($w , $h) {
+    width: $w;
+    height: $h;
+
+}
+@mixin mobile  { @media screen and (min-width: 480px){
+    @content;
+    
+}
+}
+@mixin tablet  { @media screen and (min-width: 768px){
+    @content;
+    
+}
+}
+@mixin destop  { @media screen and (min-width: 1200px){
+    @content;
+    
+}}
+@mixin retina {
+    @media(min-device-pixel-ratio:2),
+    (min-resolution: 192dpi),
+    ( min-resolution: 2dppx){
+@content;
+    }}
+    
+
+    
+
+$primary-text-color: #757575;
+$title-text-color: #212121;
+$secondary-text-color: #ffffff;
+$accent-color: #2196f3;
+$background-color: #2f303a;
+$background-color-2: #f5f4fa;
+$background-color-3: #f5f5f5;
+$contacts-text-color: rgba(255, 255, 255, 0.6);
+$header-logo-color: #000000; 
+$links-color: #AFB1B8;
+$fontFamily: Roboto, sans-serif;
+
+// cubic-bezier
+$cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);

@@ -1,0 +1,90 @@
+.group{
+    background-color:var(--background-color-2) ;
+   
+    margin-left: auto;
+    margin-right: auto;
+
+
+&__title{
+    font-family: 'Roboto';
+    margin-bottom: 30px;
+    @include font(28px, 700, 33px);
+    text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+    @include destop{
+        margin-bottom: 50px;
+        @include font(36px, 700, 42px);
+    }
+
+}
+&__list{
+    // display: flex;
+    // justify-content:space-between;
+    // padding-bottom: 95px;
+    // @include tablet{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 60px;
+    @include destop{
+        padding-bottom: 94px;
+    }
+}
+
+&__name{
+    margin-top: 30px;
+    font-family: 'Roboto';
+    @include font(16px, 500, 19px);
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--title-text-color);
+margin-bottom: 10px;
+
+}
+&__position{
+    
+    font-family: 'Roboto';
+    @include font(16px, 400, 19px);
+letter-spacing: 0.03em;
+text-align: center;
+color:var(--primary-text-color);
+
+
+}}
+.account{
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+    padding: 16px 30px 30px 32px;
+
+}
+.account__item{
+    @extend %flex-center;
+    @include box(40px, 40px);
+    border-radius: 50%;
+    background-color: var(--secondary-text-color);
+    fill: var(--icon-color);
+    transition-property: background-color color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&:hover,
+&:focus{
+    fill:var(--secondary-text-color);
+    background-color: var(--accent-color);
+}}
+.group__img{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background-color:var(--secondary-text-color);
+  
+
+// &:last-child{
+//     margin-right: 0px;
+}
+

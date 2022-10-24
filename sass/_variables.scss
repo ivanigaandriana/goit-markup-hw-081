@@ -1,0 +1,75 @@
+:root{
+    --primary-text-color:#757575;
+    --title-text-color: #212121;
+    --secondary-text-color: #ffffff;
+    --accent-color: #2196F3;
+    --background-color: #2f303a;
+    --background-color-2:#f5f4fa ;
+    --contacts-text-color: rgba(255, 255, 255, 0.6);
+    --header-logo-color: #000000;
+    --title-portfolio:#F5F5F5;
+    --line-portfolio:#ECECEC;
+    --icon-color:#AFB1B8;
+    --tuming-funkyion:cubic-bezier(0.4, 0, 0.2, 1)
+}
+.page{
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+    font-family:"Roboto",sans-serif;
+}
+.container{
+
+    max-width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px auto;
+  @include tablet {
+      max-width: 768px;
+  }
+  @include destop{
+  
+      max-width: 1200px;
+    
+    }}
+.page-container{
+    max-width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+  @include tablet {
+      max-width: 768px;
+  }
+  @include destop{
+  margin: 0 auto;
+      max-width: 1200px;
+}
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a{
+    margin: 0;
+}
+img{
+    display: block;
+}
+section{
+    padding-top: 60px;
+    @include destop{
+    padding-top: 95px;}
+}
