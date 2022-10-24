@@ -24,21 +24,21 @@
         background-image:linear-gradient( to left,
     rgba(0, 8, 0, 0.5),
     rgba(0, 8, 0, 0.5)),
-    url(../../img2/Header\ tab.jpg);
+    url(..//../img2/Header\ tab.jpg);
 @include retina{ background-image:linear-gradient( to left,
     rgba(0, 8, 0, 0.5),
     rgba(0, 8, 0, 0.5)),
-    url(../../img2/heder\ tab2x.jpg); 
+    url(..//../img2/heder\ tab2x.jpg); 
     }}
     @include destop{
     background-image:linear-gradient( to left,
     rgba(0, 8, 0, 0.5),
     rgba(0, 8, 0, 0.5)),
-    url(../../img3/Img\ \(19\)\ \(1\).jpg);
+    url(..//../img3/Img\ \(19\)\ \(1\).jpg);
 @include retina{ background-image:linear-gradient( to left,
     rgba(0, 8, 0, 0.5),
     rgba(0, 8, 0, 0.5)),
-    url(../../img2/heder\ dest2x.jpg);
+    url(..//../img2/heder\ dest2x.jpg);
 }
 }
 

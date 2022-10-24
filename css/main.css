@@ -729,26 +729,26 @@ section {
 }
 @media screen and (min-width: 768px) {
   .herou {
-    background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 8, 0, 0.5)), to(rgba(0, 8, 0, 0.5))), url(../../img2/Header\ tab.jpg);
-    background-image: linear-gradient(to left, rgba(0, 8, 0, 0.5), rgba(0, 8, 0, 0.5)), url(../../img2/Header\ tab.jpg);
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 8, 0, 0.5)), to(rgba(0, 8, 0, 0.5))), url(..//../img2/Header\ tab.jpg);
+    background-image: linear-gradient(to left, rgba(0, 8, 0, 0.5), rgba(0, 8, 0, 0.5)), url(..//../img2/Header\ tab.jpg);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .herou {
-    background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 8, 0, 0.5)), to(rgba(0, 8, 0, 0.5))), url(../../img2/heder\ tab2x.jpg);
-    background-image: linear-gradient(to left, rgba(0, 8, 0, 0.5), rgba(0, 8, 0, 0.5)), url(../../img2/heder\ tab2x.jpg);
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 8, 0, 0.5)), to(rgba(0, 8, 0, 0.5))), url(..//../img2/heder\ tab2x.jpg);
+    background-image: linear-gradient(to left, rgba(0, 8, 0, 0.5), rgba(0, 8, 0, 0.5)), url(..//../img2/heder\ tab2x.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .herou {
-    background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 8, 0, 0.5)), to(rgba(0, 8, 0, 0.5))), url(../../img3/Img\ \(19\)\ \(1\).jpg);
-    background-image: linear-gradient(to left, rgba(0, 8, 0, 0.5), rgba(0, 8, 0, 0.5)), url(../../img3/Img\ \(19\)\ \(1\).jpg);
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 8, 0, 0.5)), to(rgba(0, 8, 0, 0.5))), url(..//../img3/Img\ \(19\)\ \(1\).jpg);
+    background-image: linear-gradient(to left, rgba(0, 8, 0, 0.5), rgba(0, 8, 0, 0.5)), url(..//../img3/Img\ \(19\)\ \(1\).jpg);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .herou {
-    background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 8, 0, 0.5)), to(rgba(0, 8, 0, 0.5))), url(../../img2/heder\ dest2x.jpg);
-    background-image: linear-gradient(to left, rgba(0, 8, 0, 0.5), rgba(0, 8, 0, 0.5)), url(../../img2/heder\ dest2x.jpg);
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 8, 0, 0.5)), to(rgba(0, 8, 0, 0.5))), url(..//../img2/heder\ dest2x.jpg);
+    background-image: linear-gradient(to left, rgba(0, 8, 0, 0.5), rgba(0, 8, 0, 0.5)), url(..//../img2/heder\ dest2x.jpg);
   }
 }
 .herou__text {
