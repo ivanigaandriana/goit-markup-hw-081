@@ -340,7 +340,7 @@
     padding-right: 0px;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .header__container {
     display: -webkit-box;
     display: -ms-flexbox;
