@@ -1,9 +1,9 @@
 .herou{
     background-color: var(--background-color);
     text-align: center;
-   padding: 200px 0;
+   padding: 118px 0;
     max-width: 1600px;
-    height: 600px;
+    // height: 600px;
     outline: 1px solid black;
     background-image:linear-gradient( to left,
     rgba(0, 8, 0, 0.5),
@@ -31,6 +31,7 @@
     url(..//../img3/Header\ imgtab@2x.jpg); 
     }}
     @include destop{
+        padding: 200px 0;
     background-image:linear-gradient( to left,
     rgba(0, 8, 0, 0.5),
     rgba(0, 8, 0, 0.5)),

@@ -37,9 +37,17 @@ color:var(--title-text-color);
 
   }}
   .position__item{
+    width: 210px;
+    height: 92px;
+    @include tablet{
+        width: 226px;
+    }
+    @include destop{
+        width: 170px;
+    }
     display: flex;
     justify-content: center;
-    @include box(170px, 92px);
+   
     box-sizing: border-box;
     border-radius: 4px;
     border: 1px solid var(--icon-color);

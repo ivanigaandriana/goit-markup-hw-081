@@ -709,9 +709,8 @@ section {
 .herou {
   background-color: var(--background-color);
   text-align: center;
-  padding: 200px 0;
+  padding: 118px 0;
   max-width: 1600px;
-  height: 600px;
   outline: 1px solid black;
   background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 8, 0, 0.5)), to(rgba(0, 8, 0, 0.5))), url(..//../img3/Header\ imgmob1x.jpg);
   background-image: linear-gradient(to left, rgba(0, 8, 0, 0.5), rgba(0, 8, 0, 0.5)), url(..//../img3/Header\ imgmob1x.jpg);
@@ -741,6 +740,7 @@ section {
 }
 @media screen and (min-width: 1200px) {
   .herou {
+    padding: 200px 0;
     background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 8, 0, 0.5)), to(rgba(0, 8, 0, 0.5))), url(..//../img2/Imgdes1x.jpg);
     background-image: linear-gradient(to left, rgba(0, 8, 0, 0.5), rgba(0, 8, 0, 0.5)), url(..//../img2/Imgdes1x.jpg);
   }
@@ -1468,14 +1468,14 @@ textarea.form__input {
 }
 
 .position__item {
+  width: 210px;
+  height: 92px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 170px;
-  height: 92px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 4px;
@@ -1487,6 +1487,16 @@ textarea.form__input {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 768px) {
+  .position__item {
+    width: 226px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .position__item {
+    width: 170px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .position__item:hover, .position__item:focus {
