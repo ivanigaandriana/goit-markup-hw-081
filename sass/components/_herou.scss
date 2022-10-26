@@ -3,42 +3,41 @@
     text-align: center;
    padding: 118px 0;
     max-width: 1600px;
-    // height: 600px;
     outline: 1px solid black;
     background-image:linear-gradient( to left,
-    rgba(0, 8, 0, 0.5),
-    rgba(0, 8, 0, 0.5)),
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
     url(..//../img3/Header\ imgmob1x.jpg );
 @include retina{ background-image:linear-gradient( to left,
-    rgba(0, 8, 0, 0.5),
-    rgba(0, 8, 0, 0.5)),
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
     url(..//../img3/Header\ imgmob@2x.jpg); }
     
     margin-right: auto;
     margin-left: auto;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-size: auto;
+    background-size: cover;
    
     @include tablet{
         background-image:linear-gradient( to left,
-    rgba(0, 8, 0, 0.5),
-    rgba(0, 8, 0, 0.5)),
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
     url(..//../img3/Header\ imgtab1x.jpg);
 @include retina{ background-image:linear-gradient( to left,
-    rgba(0, 8, 0, 0.5),
-    rgba(0, 8, 0, 0.5)),
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
     url(..//../img3/Header\ imgtab@2x.jpg); 
     }}
     @include destop{
         padding: 200px 0;
     background-image:linear-gradient( to left,
-    rgba(0, 8, 0, 0.5),
-    rgba(0, 8, 0, 0.5)),
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
     url(..//../img2/Imgdes1x.jpg);
 @include retina{ background-image:linear-gradient( to left,
-    rgba(0, 8, 0, 0.5),
-    rgba(0, 8, 0, 0.5)),
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
     url(..//../img2/heder\ dest2x.jpg);
 }
 }
